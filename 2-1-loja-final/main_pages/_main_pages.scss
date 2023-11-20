@@ -1,0 +1,248 @@
+@import "../components/colors";
+@import "../components/font";
+@import "../components/buttons";
+
+h2{text-align: center;
+font-weight: 100;
+padding-top: 15px;}
+
+
+//---------------------NAVBAR---------------------//
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+    .logo__img{
+        background-color: red($color: #000000);
+        width: 100px;
+        img{
+            width: 100%;
+        }
+    }
+    .menu, .menu__item-icon{
+        display: flex;
+        align-items: center;
+        gap: 5px
+
+    }
+}
+
+
+
+
+
+//---------------------HOMEPAGE---------------------//
+
+
+
+.first__page {
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(assets/header.png);
+    background-position: center;
+    background-size: cover;
+    
+    .first__page-details{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 0 70px;
+    align-items: flex-start;
+    .first__page-title{
+        color: $white;
+        font-weight: 100;
+    }   
+    }
+
+}
+
+
+.img__title{
+span{
+    position: absolute;
+    top: 20px;
+}
+}
+//---------------------ICON TEXT PAGE---------------------//
+
+
+
+
+.third__page-wrapper{
+    background: $primary_color;
+    padding: 64px 0;
+    margin-top: 50px;
+    .icon__details{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 90px;
+            height: 90px;
+        }
+     }
+ 
+ }
+
+
+
+
+ //---------------------RECTANGULAR IMG PAGE---------------------//
+
+
+
+
+ .rect__img{       
+        width: 250px;
+        height: 450px;
+        object-fit: cover;
+    }
+
+
+
+
+
+ //---------------------FIFTH PAGE---------------------//
+
+
+
+
+
+.fith__page-wrapper {
+    background-color: $primary-color;
+    margin-top: 60px;
+    .nomad{
+        text-decoration: underline;
+        text-underline-offset: 0.5em;
+        letter-spacing: 7px;
+        font-style: italic;
+        font-weight: 100;
+        padding-bottom:30px ;
+    }
+    .details{
+        transform: translate(100px, 90px);
+    }
+    img{
+        width: 100%;
+    }
+    p{
+        font-weight:lighter;
+        font-style: italic;
+        width: 280px;
+        line-height: 2.5;
+        span{
+            font-weight: bold;
+        }
+    }
+    .btn{
+        padding: 10px 0 0 0; 
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+//---------------------CAROUSEL PAGE---------------------//
+
+.carousel__wrapper{
+   
+    img{
+        width: 300px;
+        height: 300px;
+        padding-right: 5px;
+    }
+    .overflow{
+        padding-top: 20px;
+        margin-left: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+    }
+    .overflow::-webkit-scrollbar {
+        display: none;
+      }
+}
+
+
+
+
+
+
+
+//---------------------VIDEO PAGE---------------------//
+
+
+
+
+.btn__wrapper{
+        padding: 30px 0 80px 0;
+    }
+
+
+
+
+
+//---------------------NEWSLETTER---------------------//
+
+
+
+
+ .bg__newsletter{
+    background-color: $newsletter_color;
+    padding: 50px;
+    .icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        img{
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .row__newsletter{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .btn__subscribe{
+        width: 100%;
+        display: flex;
+        input{
+            background-color: transparent;
+            margin: 0;
+            border: 1px solid $primary_color;
+            border-radius: 5px 0 0 5px;
+            padding: 13px;
+            width: 16%;  
+        }
+        ::placeholder {
+            color:$primary_color;
+            font-size: 10px;
+          }
+        
+        .btn{
+            font-size: 12px;
+            border: 1px solid $primary_color;
+            margin: 0;
+            padding: 15px;
+            border-radius: 0 5px 5px 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+

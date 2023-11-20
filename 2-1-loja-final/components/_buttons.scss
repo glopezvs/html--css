@@ -1,0 +1,15 @@
+@import "colors";
+@import "font";
+.btn{
+    text-decoration: none;
+    padding: 10px 14px;
+    font-size: $btn_size;
+    border-radius: 5px;
+    color: $black;
+    &-yellow{
+        background-color: $main_btn_color;
+    }
+    &-grey{
+        background-color: $primary_color;
+    }
+}

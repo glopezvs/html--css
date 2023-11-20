@@ -1,0 +1,28 @@
+.product__title{
+    padding: 5px;
+}
+.product__row{
+  
+    img{
+        width: 100%;
+        }  
+
+    .product__details--products{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        gap: 8px;
+        span:first-child{
+            font-weight: bold;
+        }    
+        span:nth-child(2){
+            color: rgb(172, 170, 170);
+            font-size: 14px;
+        }  
+    }
+   
+}
+.btn__more{
+    padding: 40px 0;
+    //text-align: center;
+}
