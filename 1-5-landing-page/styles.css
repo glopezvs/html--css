@@ -1,0 +1,170 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;
+  padding-left: 30px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.blue {
+  background-color: rgba(0, 100, 218, 1);
+  color: white;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.rounded {
+  border-radius: 18px;
+  transform: translate(0px, -20px);
+}
+
+/*--------------HERO-------------*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  margin: auto 0;
+  width: calc(100% / 2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+}
+p {
+  text-align: center;
+  width: 70%;
+}
+.hero__btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.video__hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+video {
+  width: 500px;
+}
+
+/*--------------HOW-------------*/
+.how {
+  background-color: rgba(245, 245, 245, 1);
+  padding: 20px 0;
+}
+.how p {
+  width: 450px;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 100;
+  margin: 0;
+  padding-top: 15px;
+}
+.img__how {
+  width: 600px;
+}
+.img__how img {
+  width: 100%;
+}
+
+/*--------------SOLUTIONS-------------*/
+.solutions p {
+  width: 450px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.card__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 600px;
+  z-index: 2;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  width: calc(100% / 3 - 24px);
+  aspect-ratio: 1;
+  background: white;
+  box-shadow: 0 0 5px 1px #b2b2b2;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+.circle {
+  background-color: rgba(0, 100, 218, 1);
+  padding: 20px;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+.card__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.card__background {
+  background: rgba(245, 245, 245, 1);
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.card:hover {
+  background-color: rgba(0, 100, 218, 1);
+  color: white;
+  transform: translate(0, -5px);
+}
+.card:hover .circle {
+  background-color: white;
+}
