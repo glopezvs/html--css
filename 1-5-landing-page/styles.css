@@ -285,5 +285,5 @@ input {
 .subscribe__btn {
   background-color: rgb(32, 32, 32);
   color: white;
-  padding: 8%;
+  padding: 8px;
 }
